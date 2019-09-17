@@ -5,14 +5,14 @@
 }
 
 @font-face {
-	font-family: "Proxima Nova";
-	src: url("../Font/Proxima/ProximaNova-Regular.ttf");
-}
-@font-face {
-	font-family: "Proxima Nova semibold";
-	src: url("../Font/hind/ProximaNova-Semibold.ttf");
+    font-family: "Proxima Nova";
+    src: url("../Font/Proxima/ProximaNova-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Proxima Nova semibold";
+    src: url("../Font/hind/ProximaNova-Semibold.ttf");
+}
 
 body, html {
     width: 100%;
@@ -30,20 +30,32 @@ body, html {
 .tableheader {
     font-family: Proxima Nova;
     color: #212121;
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
     font-weight: bold;
 }
 
 .table-image td, .table-image th {
     vertical-align: middle;
-  }
+}
 
+td {
+    font-family: Proxima Nova Semibold;
+    font-size: 1rem;
+    color: #263238;
+}
+
+tbody:before {
+    content: "-";
+    display: block;
+    line-height: 1em;
+    color: transparent;
+}
 
 .pitemname {
     font-family: Proxima Nova;
     font-weight: bold;
     color: #212121;
-    font-size:1.2rem;
+    font-size: 1.2rem;
     line-height: 120%;
 }
 
@@ -62,9 +74,9 @@ body, html {
     cursor: pointer;
     transition: all 0.2s;
     border: 0px;
-    outline: none;
+    outline: none !important;
     margin-right: 5px;
-    margin-top:2px;
+    margin-top: 2px;
 }
 
 .btnplus {
@@ -75,6 +87,99 @@ body, html {
     cursor: pointer;
     transition: all 0.2s;
     border: 0px;
+    outline: none !important;
+    margin-top: 2px;
+}
+
+.btnplus:hover, .btnminus:hover{
+    background-color: #EEEEEE;
+}
+
+.btnremove {
+    font-family: Mont Demo;
+    cursor: pointer;
+    transition: all 0.2s;
     outline: none;
-    margin-top:2px; 
+    font-weight: bold;
+}
+
+.btnremove:hover {
+    color: #f44336;
+}
+
+.ppersonalinfo {
+    color: #212121;
+    font-family: Mont Demo;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.pname {
+    font-family: Proxima Nova Semibold;
+    font-size: 0.9rem;
+    color: #9E9E9E;
+    margin-top: 30px;
+}
+
+.pfullname {
+    font-family: Proxima Nova Semibold;
+    color: #212121;
+    font-size: 0.9rem;
+    margin-top: -7px;
+}
+
+.btncheckout {
+    font-family: Proxima Nova Semibold;
+    background-color: #e53935;
+    font-size: 1.1rem;
+    color: white;
+    border: 0px;
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btncheckout:hover {
+    background-color: #d32f2f;
+}
+
+#ptotal {
+    font-family: Proxima Nova Semibold;
+    color: #212121;
+}
+
+.psubtotal {
+    font-family: Proxima Nova;
+    color:  #616161;
+    font-size: 0.9rem;
+}
+
+.pcontinue {
+    font-family: Proxima Nova;
+    font-weight: bold;
+    color: #212121;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.pcontinue:hover {
+    color: #d32f2f;
+}
+
+.poveralltotal {
+    font-family: Proxima Nova;
+    font-weight: bold;
+    color: #212121;
+}
+
+.txtvalue {
+    border: 0px;
+    font-family: Proxima Nova;
+    color: #212121;
+    width: auto;
 }
