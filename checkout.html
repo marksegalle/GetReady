@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='Script\jquery-3.3.1.min.js'></script>
+    <link href='Css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='Css/checkout.css' rel='stylesheet' type='text/css'>
+    <script src='Script\bootstrap.min.js'></script>
+    <title>GetReady - Checkout</title>
+</head>
+
+<body>
+    <div class="container con">
+        <nav class="navbar navbar-expand-md">
+            <button class="navbar-toggler" data-toggle="navbar-collapse" data-target="#collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-brand" href="#">
+                <a href="#"><img src="Image/logo1.png" style="width: 170px;padding:0px;margin:0px;"></a>
+            </nav>
+            <div class="collapse navbar-collapse" id="collapse">
+                <div class="ml-auto">
+                    <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav">
+                            <li><a class="nav-link btnservices"
+                                    style="margin-right: 20px;color:#142132;font-family:Proxima Nova Semibold;font-size: 16px;"
+                                    href="404.html">Home</a></li>
+                            <li><a class="nav-link btnpackages"
+                                    style="margin-right: 20px;color:#142132;font-family: Proxima Nova Semibold;font-size: 16px;"
+                                    href="404.html">Product</a></li>
+                            <li><a class="nav-link btnpackages"
+                                    style="margin-right: 20px;color:#142132;font-family: Proxima Nova Semibold;font-size: 16px;"
+                                    href="contact.html">About</a></li>
+                            <li><a class="nav-link btnpackages"
+                                    style="margin-right: 20px;color:#142132;font-family: Proxima Nova Semibold;font-size: 16px;"
+                                    href="contact.html">Contact</a></li>
+                        </ul>
+                        <li><a class="nav-link btnpackages"
+                                style="margin-right: 20px;color:#142132;font-family: Proxima Nova Semibold;font-size: 16px;"
+                                href="404.html"><img src="Image/cart1.png" class="img-fluid"
+                                    style="width:18px;margin-right: 10px;margin-top:-5px;">Cart</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link btnservices dropdown-toggle"
+                                style="margin-right: 20px;color: #142132;font-family: Proxima Nova Semibold;font-size: 16px;"
+                                href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false"> <img src="Image/profile1.png" class="img-fluid"
+                                    style="width:18px;margin-right: 10px;margin-top:-5px;">My Account</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Login</a>
+                                <a class="dropdown-item" href="#">Sign up</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container con">
+        <div class="row" style="margin-top: 70px;">
+            <div class="col-lg-12">
+                <p class="pshoppingcart">Shopping Cart.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container con">
+        <div class="row" style="margin-top: 30px">
+            <div class="col-lg-7">
+                <table class="table table-image table-borderless table-responsive" >
+                    <thead>
+                        <tr>
+                            <th scope="col" class="tableheader">Product</th>
+                            <th scope="col" class="tableheader"></th>
+                            <th scope="col" class="tableheader">Color</th>
+                            <th scope="col" class="tableheader">Quantity</th>
+                            <th scope="col" class="tableheader">Total Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><img
+                                    src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-5.jpg"
+                                    class="img-fluid img-thumbnail" alt="Sheep"></th>
+                            <td class = "pitemname">Solo kit <br> <span class = "psize">Large</span></td>
+                            <td>Mark</td>
+                            <td><button class = "btnminus">&#8722;</button><span style = "margin-right: 5px;">1</span><button class = "btnminus">&#43;</button></td>
+                            <td>@mdo</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row" class="w-25"><img
+                                    src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-5.jpg"
+                                    class="img-fluid img-thumbnail" alt="Sheep"></th>
+                                    <td class = "pitemname">Solo kit <br> <span class = "psize">Small</span></td>
+                                    <td>Alfon</td>
+                                    <td><button class = "btnminus">&#8722;</button><span style = "margin-right: 5px;">2</span><button class = "btnminus">&#43;</button></td>
+                                    <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="w-25"><img
+                                    src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-5.jpg"
+                                    class="img-fluid img-thumbnail" alt="Sheep"></th>
+                                    <td class = "pitemname">Solo kit <br> <span class = "psize">X-Large</span></td>
+                            <td>Larry</td>
+                            <td><button class = "btnminus">&#8722;</button><span style = "margin-right: 5px;">3</span><button class = "btnminus">&#43;</button></td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

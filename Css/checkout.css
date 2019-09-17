@@ -1,0 +1,80 @@
+@media only screen and (min-width: 1200px) {
+    .con {
+        max-width: 1300px !important;
+    }
+}
+
+@font-face {
+	font-family: "Proxima Nova";
+	src: url("../Font/Proxima/ProximaNova-Regular.ttf");
+}
+@font-face {
+	font-family: "Proxima Nova semibold";
+	src: url("../Font/hind/ProximaNova-Semibold.ttf");
+}
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.pshoppingcart {
+    font-family: Mont Demo;
+    color: #212121;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.tableheader {
+    font-family: Proxima Nova;
+    color: #212121;
+    font-size: 0.9rem; 
+    font-weight: bold;
+}
+
+.table-image td, .table-image th {
+    vertical-align: middle;
+  }
+
+
+.pitemname {
+    font-family: Proxima Nova;
+    font-weight: bold;
+    color: #212121;
+    font-size:1.2rem;
+    line-height: 120%;
+}
+
+.psize {
+    font-family: Proxima Nova;
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #424242;
+}
+
+.btnminus {
+    background-color: transparent;
+    font-family: Mont Demo;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 0px;
+    outline: none;
+    margin-right: 5px;
+    margin-top:2px;
+}
+
+.btnplus {
+    background-color: transparent;
+    font-family: Mont Demo;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 0px;
+    outline: none;
+    margin-top:2px; 
+}

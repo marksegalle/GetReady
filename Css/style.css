@@ -160,7 +160,7 @@ button:hover .button-text {
 }
 
 .pnewsandupdates , .pproducthiglights {
-    font-family: Proxima Nova Semibold;
+    font-family: Proxima Nova Semibold !important;
     color: #232433;
     font-size: 25px;
 }
