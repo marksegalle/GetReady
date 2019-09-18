@@ -27,13 +27,10 @@
                         <ul class="nav navbar-nav">
                             <li><a class="nav-link btnservices"
                                     style="margin-right: 20px;color:#142132;font-family:Proxima Nova Semibold;font-size: 16px;"
-                                    href="404.html">Home</a></li>
+                                    href="index.html">Home</a></li>
                             <li><a class="nav-link btnpackages"
                                     style="margin-right: 20px;color:#142132;font-family: Proxima Nova Semibold;font-size: 16px;"
-                                    href="404.html">Product</a></li>
-                            <li><a class="nav-link btnpackages"
-                                    style="margin-right: 20px;color:#142132;font-family: Proxima Nova Semibold;font-size: 16px;"
-                                    href="contact.html">About</a></li>
+                                    href="product.html">Product</a></li>
                             <li><a class="nav-link btnpackages"
                                     style="margin-right: 20px;color:#142132;font-family: Proxima Nova Semibold;font-size: 16px;"
                                     href="contact.html">Contact</a></li>
@@ -41,7 +38,8 @@
                         <li><a class="nav-link btnpackages"
                                 style="margin-right: 20px;color:#142132;font-family: Proxima Nova Semibold;font-size: 16px;"
                                 href="404.html"><img src="Image/cart1.png" class="img-fluid"
-                                    style="width:18px;margin-right: 10px;margin-top:-5px;">Cart</a></li>
+                                    style="width:18px;margin-right: 10px;margin-top:-5px;">Cart<sup
+                                    id="cartnum"></sup></a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link btnservices dropdown-toggle"
                                 style="margin-right: 20px;color: #142132;font-family: Proxima Nova Semibold;font-size: 16px;"
@@ -49,8 +47,8 @@
                                 aria-expanded="false"> <img src="Image/profile1.png" class="img-fluid"
                                     style="width:18px;margin-right: 10px;margin-top:-5px;">My Account</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Login</a>
-                                <a class="dropdown-item" href="#">Sign up</a>
+                                <a class="dropdown-item" href="login.html">Login</a>
+                                <a class="dropdown-item" href="signup.html">Sign up</a>
                             </div>
                         </li>
                     </ul>
@@ -221,10 +219,19 @@
     }
 
     $('input[type="text"]')
-        // event handler
         .keyup(resizeInput)
-        // resize on page load
         .each(resizeInput);
+
+    var count = document.getElementById("shoplist").rows.length;
+    document.getElementById("cartnum").innerHTML = count;
+
+    $(document).ready(function () {
+        $(".btnremove").click(function () {
+            count = 0;
+            var count = document.getElementById("shoplist").rows.length;
+            document.getElementById("cartnum").innerHTML = count - 1;
+        });
+    });
 </script>
 
 </html>
