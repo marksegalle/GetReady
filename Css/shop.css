@@ -142,7 +142,7 @@ body, html {
     font-weight: bold;
     cursor: pointer;
     transition: all 0.2s;
-    outline: none;
+    outline: none !important;
 }
 
 .btnminus:hover, .btnplus:hover {
@@ -178,6 +178,7 @@ body, html {
     font-size: 2rem;
 }
 
+
 .card-title {
     font-family: Proxima Nova;
     color: #212121;
@@ -211,5 +212,108 @@ body, html {
     color: #424242;
     font-size: 1rem;
     margin-left: 5px;
-    margin-top:5px;
+    margin-top: 5px;
 }
+
+.pnewsletter {
+    font-family: Proxima Nova;
+    font-weight: bold;
+    color: #424242;
+    font-size: 1.5rem;
+    margin-top: 70px;
+}
+
+.pnewsletter1 {
+    font-family: Proxima Nova Semibold;
+    color: #424242;
+    font-size: 1rem;
+    margin-top: -10px;
+}
+
+.txtnewsletter {
+    font-family: Proxima Nova Semibold;
+    color: #424242;
+    background-color: white;
+    border: 1px solid #BDBDBD;
+    padding: 5px 10px;
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btnsubscribe1 {
+    font-family: Proxima Nova Semibold;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #212121;
+    border: 0px;
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 8px 35px;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+.confooter {
+    background-color: #212121;
+}
+
+.pconnect {
+    font-family: Proxima Nova Semibold;
+    font-size: 18px;
+    color: white;
+}
+
+.pconnectsub {
+    font-family: Proxima Nova;
+    font-size: 15px;
+    color: #BDBDBD;
+    
+}
+
+.btnemail {
+    font-family: Proxima Nova Semibold;
+    color: #424242;
+    font-size: 15px;
+    border: 0px;
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.btnsubscribe {
+    font-family: Proxima Nova Semibold;
+    color: white;
+    font-size: 15px;
+    border: 2px solid white;
+    padding: 10px 25px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btnsubscribe:hover {
+    transition: all 0.2s;
+    background-color: white;
+    color: #142132;
+}
+
+.ptitlesub {
+    font-family: Proxima Nova;
+    font-size: 15px;
+    color: #BDBDBD;
+    cursor: pointer;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.ptitlesub:hover {
+    color: white;
+}
+
+.pcopyright {
+    font-family: Proxima Nova;
+    color: #BDBDBD;
+    font-size: 0.9rem;
+}
+
