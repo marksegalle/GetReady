@@ -306,3 +306,12 @@ body, html {
     padding: 5px 10px;
     outline: none;
 }
+
+.divimagem, .imgnews {
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.divimage:hover, .imgnews:hover {
+    filter:brightness(50%);
+}
