@@ -71,6 +71,30 @@ body, html {
     color: #e83b4f !important;
 }
 
+.imgcarousel {
+    border-radius: 20px;
+}
+
+.pnewsdate {
+    font-family: Proxima Nova;
+    color: #212121;
+    font-size: 1rem;
+}
+
+.pnewstitle {
+    font-family: Proxima Nova;
+    color: #e83b4f;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.pnewsdesc {
+    font-family: Proxima Nova;
+    color: #212121;
+    font-size: 0.9rem;
+    margin-top: -15px;
+}
+
 .plifekit {
     font-family: Proxima Nova;
     color: #212121;
@@ -116,6 +140,37 @@ body, html {
     font-weight: bold;
     transition: all 0.2s;
     cursor: pointer;
+}
+
+.pkit:hover {
+    color: #e83b4f;
+}
+
+.card-title {
+    font-family: Proxima Nova;
+    color: #e83b4f;
+    font-size: 0.9rem;
+}
+
+.card-text {
+    font-family: Proxima Nova;
+    color: #212121;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top:-5px;
+}
+
+.btnaddtocart {
+    font-family: Proxima Nova;
+    color: #212121;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid #212121;
+    padding: 5px 5px;
+    width:150px;
+    background: transparent;
 }
 
 .cbx {
@@ -205,4 +260,49 @@ body, html {
     opacity: 1;
     transform: scale(1);
     transition: all 0.15s ease;
+}
+
+.btnsubscribe {
+    font-family: Proxima Nova;
+    color: #212121;
+    background-color: white;
+    padding: 5px 20px;
+    margin-top: 10px; 
+    border: 0px;
+    cursor: pointer;
+    transition: all 0.2s;
+    outline: none;
+    border-radius: 5px;
+}
+
+.confooter {
+    background-color: #212121;
+    padding: 0px 20px;
+}
+
+.pfootertitle {
+    font-family: Proxima Nova;
+    color: #e83b4f;
+    font-size: 1rem;
+}
+
+.pfooterdesc {
+    font-family: Proxima Nova;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.txtnewsletter {
+    font-family: Proxima Nova;
+    color: white;
+    font-size: 1rem;
+    background: url(../Image/right.png)  no-repeat 97.25% 10px transparent;
+    background-size: 20px;
+    border: 0px;
+    border-bottom: 1px solid #e83b4f;
+    width: 300px;
+    padding: 5px 10px;
+    outline: none;
 }
