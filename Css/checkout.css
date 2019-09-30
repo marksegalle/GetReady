@@ -20,6 +20,53 @@ body, html {
     overflow-x: hidden;
 }
 
+.pannouncement {
+    font-family: Proxima Nova;
+    color: white;
+    font-size: 1rem;
+}
+
+.preadmore {
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.preadmore:hover, .pclose:hover, .btnabout:hover, .btnfaq:hover, .btncontact:hover, .btnstores:hover {
+    color: #e83b4f !important;
+}
+
+.pclose {
+    font-family: Proxima Nova;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.vl {
+    border-left: 1px solid #424242;
+    height: 5px !important;
+    margin-left: 10px;
+}
+
+.btnabout:hover, .btnfaq:hover, .btncontact:hover, .btnstore:hover {
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.txtsearch {
+    font-family: Proxima Nova;
+    color: #424242;
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid #9E9E9E;
+    outline: none;
+    border-radius: 5px;
+    background: url(../Image/search1.png) no-repeat 97% 7px white;
+    background-size: 18px;
+    width: 250px;
+}
+
 .pshoppingcart {
     font-family: Mont Demo;
     color: #212121;
@@ -91,7 +138,7 @@ tbody:before {
     margin-top: 2px;
 }
 
-.btnplus:hover, .btnminus:hover{
+.btnplus:hover, .btnminus:hover {
     background-color: #EEEEEE;
 }
 
@@ -154,7 +201,7 @@ tbody:before {
 
 .psubtotal {
     font-family: Proxima Nova;
-    color:  #616161;
+    color: #616161;
     font-size: 0.9rem;
 }
 
@@ -191,5 +238,37 @@ sup {
     border-radius: 10px;
     margin-top: -5px !important;
     line-height: 80%;
-    vertical-align:text-top; 
+    vertical-align: text-top;
+}
+
+.confooter {
+    background-color: #212121;
+    padding: 0px 20px;
+}
+
+.pfootertitle {
+    font-family: Proxima Nova;
+    color: #e83b4f;
+    font-size: 1rem;
+}
+
+.pfooterdesc {
+    font-family: Proxima Nova;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.txtnewsletter {
+    font-family: Proxima Nova;
+    color: white;
+    font-size: 1rem;
+    background: url(../Image/right.png) no-repeat 97.25% 10px transparent;
+    background-size: 20px;
+    border: 0px;
+    border-bottom: 1px solid #e83b4f;
+    width: 300px;
+    padding: 5px 10px;
+    outline: none;
 }
