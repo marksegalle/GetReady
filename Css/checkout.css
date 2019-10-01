@@ -91,6 +91,10 @@ td {
     color: #263238;
 }
 
+tr:hover {
+    background-color: #EEEEEE !important;
+}
+
 tbody:before {
     content: "-";
     display: block;
